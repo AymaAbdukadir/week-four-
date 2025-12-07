@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 461.53 419.25">
+  <defs>
+    <style>
+      .cls-1 {
+        mask: url(#mask-2);
+      }
+
+      .cls-2 {
+        mask: url(#mask-3);
+      }
+
+      .cls-3 {
+        fill: #facc15;
+      }
+
+      .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        stroke-width: 0px;
+      }
+
+      .cls-4 {
+        fill: #3b82f6;
+        opacity: .68;
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-5, .cls-7 {
+        mix-blend-mode: multiply;
+      }
+
+      .cls-6 {
+        fill: #fff;
+        opacity: .7;
+      }
+
+      .cls-8 {
+        filter: url(#luminosity-noclip);
+      }
+
+      .cls-9 {
+        mask: url(#mask-1);
+      }
+
+      .cls-10 {
+        mask: url(#mask);
+      }
+
+      .cls-7 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-11 {
+        filter: url(#luminosity-noclip-3);
+      }
+    </style>
+    <filter id="luminosity-noclip" x="103.68" y="47.84" width="357.86" height="371.41" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip-2" x="103.68" y="-6545.75" width="357.86" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-1" x="103.68" y="-6545.75" width="357.86" height="32766" maskUnits="userSpaceOnUse"/>
+    <linearGradient id="linear-gradient" x1="551.52" y1="249.66" x2="-487.26" y2="187.41" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".86" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff"/>
+      <stop offset="1" stop-color="#f5f5f5"/>
+      <stop offset="1" stop-color="#c7c7c7"/>
+      <stop offset="1" stop-color="#9c9c9c"/>
+      <stop offset="1" stop-color="#777"/>
+      <stop offset="1" stop-color="#565656"/>
+      <stop offset="1" stop-color="#3b3b3b"/>
+      <stop offset="1" stop-color="#252525"/>
+      <stop offset="1" stop-color="#141414"/>
+      <stop offset="1" stop-color="#080808"/>
+      <stop offset="1" stop-color="#010101"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <mask id="mask" x="103.68" y="47.84" width="357.86" height="371.41" maskUnits="userSpaceOnUse">
+      <g class="cls-8">
+        <g class="cls-9">
+          <polyline class="cls-5" points="103.68 414.1 461.53 47.84 359.71 419.25 103.68 419.25"/>
+        </g>
+      </g>
+    </mask>
+    <filter id="luminosity-noclip-3" x="0" y="47.84" width="357.86" height="371.41" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip-4" x="0" y="-6545.75" width="357.86" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-3" x="0" y="-6545.75" width="357.86" height="32766" maskUnits="userSpaceOnUse"/>
+    <linearGradient id="linear-gradient-2" x1="550.7" y1="263.49" x2="-488.09" y2="201.25" xlink:href="#linear-gradient"/>
+    <mask id="mask-2" x="0" y="47.84" width="357.86" height="371.41" maskUnits="userSpaceOnUse">
+      <g class="cls-11">
+        <g class="cls-2">
+          <polyline class="cls-7" points="357.86 414.1 0 47.84 101.81 419.25 357.86 419.25"/>
+        </g>
+      </g>
+    </mask>
+  </defs>
+  <g class="cls-10">
+    <polyline class="cls-3" points="103.68 414.1 461.53 47.84 359.71 419.25 103.68 419.25"/>
+  </g>
+  <g class="cls-1">
+    <polyline class="cls-4" points="357.86 414.1 0 47.84 101.81 419.25 357.86 419.25"/>
+  </g>
+  <circle class="cls-6" cx="235.44" cy="49.63" r="49.63" transform="translate(148.74 274.08) rotate(-80.78)"/>
+</svg>
