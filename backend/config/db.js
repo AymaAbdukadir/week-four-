@@ -4,7 +4,8 @@ const dotenv = require("dotenv");
 
 dotenv.config();
 
-const DBURL = process.env.DBURL ;
+const DBURL = process.env.atlas_URL;
+
 console.log(DBURL)
 if(!DBURL){
   throw new Error('DBURL is not defined in .env')
@@ -13,7 +14,7 @@ if(!DBURL){
 
 module.exports = async function connectDB() {
   try {
-    await mongoose.connect('mongodb://localhost:27017/HamiMinimarket' , {
+    await mongoose.connect(DBURL , {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     })
@@ -21,5 +22,6 @@ module.exports = async function connectDB() {
     console.log("database connected successfully");
   } catch (err) {
     console.log("errror aya dhacay", err);
+    process.exit(1);
   }
 };
