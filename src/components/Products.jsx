@@ -8,16 +8,16 @@ const Products = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [priceFilter, setPriceFilter] = useState("");
 
-  useEffect(() => {
-    axios
-      .get("http://localhost:8000/products")
-      .then((result) => {
-        setProducts(result.data);
-        setAllProducts(result.data);
-      })
-      .catch((err) => console.log(err));
-  }, []);
-
+useEffect(() => {
+  axios
+    .get("https://week-four-3.onrender.com/products")
+    .then((result) => {
+      setProducts(result.data);
+      setAllProducts(result.data);
+    })
+    .catch((err) => console.log(err));
+}, []);
+// console.log('all', allProducts)
   const filterByName = (e) => {
     const value = e.target.value.toLowerCase();
     setSearchTerm(value);
@@ -62,7 +62,7 @@ const Products = () => {
         Products
       </h1>
 
-      {/* Filter Section */}
+     
       <div className="w-full p-6 bg-slate-800 mb-20 rounded-2xl shadow-xl flex flex-col lg:flex-row items-center justify-between gap-6">
 
         <div className="w-full lg:w-1/3 relative">
@@ -110,7 +110,6 @@ const Products = () => {
 
       </div>
 
-      {/* Product Display */}
       {products.length === 0 ? (
         <div className="flex justify-center py-20">
           <div className="w-12 h-12 border-4 border-amber-400 border-t-transparent rounded-full animate-spin"></div>

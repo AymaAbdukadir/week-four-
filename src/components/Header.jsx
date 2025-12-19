@@ -30,7 +30,7 @@ const Header = () => {
           <nav>
             <ul className="flex gap-8 text-white font-semibold capitalize">
               <li className="hover:text-amber-400 transition duration-300">
-                <Link to="#home">Home</Link>
+                <a href="#home">Home</a>
               </li>
               <li className="hover:text-amber-400 transition duration-300">
                 <a href="#popular">Popular Products</a>
@@ -78,11 +78,11 @@ const Header = () => {
           ${menuOpen ? "opacity-100 max-h-[500px]" : "opacity-0 max-h-0 overflow-hidden"}
         `}
       >
-        <Link className="hover:text-amber-400" to="#home">Home</Link>
-        <Link className="hover:text-amber-400" to="#">Popular Products</Link>
-        <Link className="hover:text-amber-400" to="#">Products</Link>
-        <Link className="hover:text-amber-400" to="#">About</Link>
-        <Link className="hover:text-amber-400" to="#">Contact</Link>
+        <a className="hover:text-amber-400" href="#home">Home</a>
+        <a className="hover:text-amber-400" href="#">Popular Products</a>
+        <a className="hover:text-amber-400" href="#">Products</a>
+        <a className="hover:text-amber-400" href="#">About</a>
+        <a className="hover:text-amber-400" href="#">Contact</a>
 
         <div className="flex flex-col gap-3 mt-4">
           <Link
@@ -101,12 +101,12 @@ const Header = () => {
         </div>
 
         <div className="flex justify-center mt-3">
-          <div className="relative">
+          <Link to={'/carts'} className="relative">
             <FaShoppingCart className="text-white text-3xl hover:text-amber-400 transition" />
             <span className="absolute -top-2 -right-2 bg-amber-300 text-slate-800 text-xs px-1.5 rounded-full font-bold">
               {cartCount}
             </span>
-          </div>
+          </Link>
         </div>
       </div>
     </header>

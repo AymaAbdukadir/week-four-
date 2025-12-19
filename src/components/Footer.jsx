@@ -36,10 +36,10 @@ const Footer = () => {
           <h4 className="text-xl font-semibold text-amber-400 mb-4">Contact</h4>
           <ul className="space-y-3 text-sm">
             <li className="flex items-center gap-2">
-              <FaMapMarkerAlt className="text-amber-400" /> Your City, Somalia
+              <FaMapMarkerAlt className="text-amber-400" />  Somalia , mogadishu
             </li>
             <li className="flex items-center gap-2">
-              <FaPhoneAlt className="text-amber-400" /> +252 61 2345678
+              <FaPhoneAlt className="text-amber-400" /> +252 61 4465575
             </li>
             <li className="flex items-center gap-2">
               <FaEnvelope className="text-amber-400" /> support@hamimarket.com

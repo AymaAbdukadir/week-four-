@@ -23,7 +23,7 @@ function Register() {
     }
 
     axios
-      .post("http://localhost:8000/register", {
+      .post("https://week-four-4.onrender.com/register", {
         userName,
         userEmail,
         userPassword,
