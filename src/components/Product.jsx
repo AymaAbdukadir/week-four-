@@ -12,7 +12,7 @@ const Product = ({ data }) => {
     setCartCount((prev) => prev + 1);
 
     axios
-      .post("http://localhost:8000/add-to-cart", {
+      .post("https://week-four-4.onrender.com/add-to-cart", {
         name: product.name,
         price: product.price,
         category: product.category,

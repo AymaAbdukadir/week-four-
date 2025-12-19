@@ -9,7 +9,7 @@ const Cart = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:8000/carts")
+      .get("https://week-four-4.onrender.com/carts")
       .then((res) => {
         setCarts(res.data);
         setCartCount(res.data.length);
@@ -18,17 +18,17 @@ const Cart = () => {
   }, [setCartCount]);
 
   const updateQuantity = async (id, type) => {
-    await axios.put(`http://localhost:8000/cart/${id}/update-quantity`, { type });
-    const res = await axios.get("http://localhost:8000/carts");
+    await axios.put(`https://week-four-4.onrender.com/cart/${id}/update-quantity`, { type });
+    const res = await axios.get("https://week-four-4.onrender.com/carts");
     setCarts(res.data);
     setCartCount(res.data.length);
   };
 
   const removeItem = async (id) => {
    try {
-    await axios.delete(`http://localhost:8000/carts/${id}`);
+    await axios.delete(`https://week-four-4.onrender.com/carts/${id}`);
     
-    const res = await axios.get("http://localhost:8000/carts");
+    const res = await axios.get("https://week-four-4.onrender.com/carts");
     setCarts(res.data);
     setCartCount((prev) => prev-1)
   } catch (err) {
